@@ -50,10 +50,10 @@ int main() {
 
     printf("\n=== Cadastro da Segunda Carta ===\n");
     printf("Digite o código da carta (ex: B02): ");
-    scanf("%3s", codigo2);
+    scanf("%s", codigo2);
 
     printf("Nome da Cidade: ");
-    scanf("%3s", &nome2);
+    scanf("%s", &nome2);
 
     printf("Digite a população: ");
     scanf("%d", &populacao2);
